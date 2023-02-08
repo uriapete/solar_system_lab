@@ -50,3 +50,19 @@ solarSystem[0].ringSystem = true;
 
 console.log('\nPrompt 6:')
 console.log(solarSystem[0]);
+
+// Prompt 7:
+// Change Uranus’ moon “Umbriel” to “Oberon”
+
+// console.log(solarSystem[6])
+solarSystem[6].moons[3] = 'Oberon';
+console.log('\nPrompt 7:')
+console.log(solarSystem[6]);
+
+// Prompt 8:
+// Iterate through the solarSystem array and print only the objects that have a ringSystem (where ringSystem: true), and ignore the others. You want to make a loop that goes over each item in the array and include an if statement.
+
+console.log('\nPrompt 8:');
+solarSystem.filter(planet => (planet.ringSystem)).forEach(planet => {
+    console.log(planet);
+});
