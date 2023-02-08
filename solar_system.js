@@ -4,4 +4,11 @@ const solarSystem = [    { name: "Mercury", ringSystem: false, moons: [] },    {
 1. Print the boolean for Mercury’s ringSystem
 */
 
+console.log(`Example Prompt:`);
 console.log(solarSystem[0].ringSystem);
+
+// Prompt 1:
+// Print the array of Jupiter’s moons to the console (no for loop, just print the entire array).
+
+console.log(`\nPrompt 1:`);
+console.log(solarSystem[4].moons);
