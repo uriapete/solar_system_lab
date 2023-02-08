@@ -26,3 +26,11 @@ solarSystem[1].moons.push("Endor");
 
 console.log('\nPrompt 3:')
 console.log(solarSystem[1].moons);
+
+// Prompt 4:
+// Add a Pluto object to the solarSystem array using .push. The object should contain Pluto’s name, ringSystem false, and moons array (which includes “Charon”).
+
+solarSystem.push({name: "Pluto", ringSystem: false, moons: ["Charon"]});
+
+console.log('\nPrompt 4:')
+console.log(solarSystem[solarSystem.length-1]);
