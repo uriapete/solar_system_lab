@@ -18,3 +18,11 @@ console.log(solarSystem[4].moons);
 
 console.log('\nPrompt 2:')
 console.log(solarSystem[7].moons[1]);
+
+// Prompt 3:
+// 3. Add a new moon called “Endor” to Venus’ moons array.
+
+solarSystem[1].moons.push("Endor");
+
+console.log('\nPrompt 3:')
+console.log(solarSystem[1].moons);
