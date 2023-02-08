@@ -12,3 +12,9 @@ console.log(solarSystem[0].ringSystem);
 
 console.log(`\nPrompt 1:`);
 console.log(solarSystem[4].moons);
+
+// Prompt 2:
+// 2. Print the name of Neptune’s moon “Nereid” to the console.
+
+console.log('\nPrompt 2:')
+console.log(solarSystem[7].moons[1]);
