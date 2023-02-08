@@ -4,4 +4,4 @@ const solarSystem = [    { name: "Mercury", ringSystem: false, moons: [] },    {
 1. Print the boolean for Mercury’s ringSystem
 */
 
-console.log(solarSystem)
+console.log(solarSystem[0].ringSystem);
