@@ -34,3 +34,11 @@ solarSystem.push({name: "Pluto", ringSystem: false, moons: ["Charon"]});
 
 console.log('\nPrompt 4:')
 console.log(solarSystem[solarSystem.length-1]);
+
+// Prompt 5:
+// Add a new key value pair to the Earth object: the key should be ‘diameter’, and the value should be Earth’s diameter in miles represented as a string.
+
+solarSystem[2].diameter = "7918";
+
+console.log('\nPrompt 5:')
+console.log(solarSystem[2].diameter);
