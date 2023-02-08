@@ -41,4 +41,12 @@ console.log(solarSystem[solarSystem.length-1]);
 solarSystem[2].diameter = "7918";
 
 console.log('\nPrompt 5:')
-console.log(solarSystem[2].diameter);
+console.log(solarSystem[2]);
+
+// Prompt 6:
+// Change Mercury’s ringSystem boolean to true.
+
+solarSystem[0].ringSystem = true;
+
+console.log('\nPrompt 6:')
+console.log(solarSystem[0]);
